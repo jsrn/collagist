@@ -2,11 +2,27 @@
 
 A gem that lets you make collages.
 
-# Testing
+## Usage
+
+```ruby
+collagist = Collagist.new
+# Specify the output filename
+collagist.outfile = "my_nuke_plans.png"
+# How wide the collage can get before it wraps onto the next line
+collagist.max_width = 800
+# How many pixels wide the borders are
+collagist.border_width = 4
+# What colour the background is
+collagist.background_colour = "#333"
+# Build!
+collagist.build_from_folder("nukeplans/*")
+```
+
+## Testing
 
 Tests are mainly carried out by visual inspection currently. After the test suite is run, the output images will be in `spec/test_output`. The filenames should be fairly descriptive of what it should look like.
 
-# LICENSE
+## LICENSE
 
 Copyright (c) 2015 jsrn
 
