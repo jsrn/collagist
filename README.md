@@ -22,6 +22,8 @@ collagist.build_from_folder("nukeplans/*")
 
 Tests are mainly carried out by visual inspection currently. After the test suite is run, the output images will be in `spec/test_output`. The filenames should be fairly descriptive of what it should look like.
 
+Test images should be placed in `spec/images/`
+
 ## LICENSE
 
 Copyright (c) 2015 jsrn
@@ -43,5 +45,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-
-Test images should be placed in `spec/images/`
