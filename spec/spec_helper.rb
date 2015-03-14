@@ -1,3 +1,3 @@
 require 'collagist'
 
-PUGS_FOLDER = "spec/pugs/*"
+PUGS_FOLDER = "spec/images/*.*"
