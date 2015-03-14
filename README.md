@@ -44,4 +44,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
-Images in `spec/pugs` shamelessly grabbed from google images and are property of whoever it was that originally uploaded them.
+Images in `spec/pugs` taken from [wikimedia commons](http://commons.wikimedia.org/wiki/Pug).
